@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class JenkinsPurposeController {
 	
-	@RequestMapping("/welcome")
+	@RequestMapping("/wel")
 	public String method() {
 		return "Hai Pranavesh";
 		
